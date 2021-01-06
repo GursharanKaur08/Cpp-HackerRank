@@ -5,8 +5,8 @@
 #include <algorithm>
 using namespace std;
 
-
-int main() {
+int main() 
+{
     int a,b,c,s;
     cin>>a>>b>>c;
     s=a+b+c;
