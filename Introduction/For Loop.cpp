@@ -2,12 +2,14 @@
 #include <cstdio>
 using namespace std;
 
-int main() {
+int main() 
+{
     int a , b , i ;
     cin>>a;
     cin>>b;
     for(i=a ; i <= b ; i++)
-     { if ( i == 1)
+     { 
+        if ( i == 1)
        cout<<"one\n";
 
        else if (i == 2)
@@ -35,10 +37,11 @@ int main() {
        cout<<"nine\n";
 
        else if (i>9)
-       { if (i%2==0)
-         cout<<"even\n";
-         else
-         cout<<"odd\n";
+       { 
+           if (i%2==0)
+            cout<<"even\n";
+            else
+            cout<<"odd\n";
        }
     }
     return 0;
