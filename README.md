@@ -1,2 +1,2 @@
-# This Repository contains solutions of C++ Problems in HackerRank
+# HackerRank Cpp Solutions
  
