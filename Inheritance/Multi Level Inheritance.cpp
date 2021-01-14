@@ -8,22 +8,21 @@ using namespace std;
 class Triangle
 {
 	public:
-		void triangle()
+	void triangle()
         {
-			cout<<"I am a triangle\n";
-		}
+		cout<<"I am a triangle\n";
+	}
 };
 
 class Isosceles : public Triangle
 {
   	public:
-  		void isosceles()
+  	void isosceles()
         {
     		cout<<"I am an isosceles triangle\n";
-  		}
+  	}
 };
 
-//Write your code here.
 class Equilateral : public Isosceles
 {
     public:
