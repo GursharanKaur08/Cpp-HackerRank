@@ -8,8 +8,7 @@ class HotelRoom
     public:
     HotelRoom(int bedrooms, int bathrooms) 
     : bedrooms_(bedrooms), bathrooms_(bathrooms) 
-    {
-        
+    {        
     }
     
     virtual int get_price() 
@@ -26,8 +25,7 @@ class HotelApartment : public HotelRoom
     public:
     HotelApartment(int bedrooms, int bathrooms) 
     : HotelRoom(bedrooms, bathrooms) 
-    {
-        
+    { 
     }
 
     int get_price() 
